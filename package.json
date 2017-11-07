@@ -1,16 +1,32 @@
 {
   "name": "docker-react-webpack",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.17"
-  },
+  "version": "1.0.0",
+  "description": "A playground for Docker with React and webpack.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/docker-react-webpack#readme",
+  "keywords": [
+    "docker",
+    "react",
+    "webpack"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/docker-react-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/docker-react-webpack/issues"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "private": true,
+  "license": "MIT"
 }
