@@ -4,6 +4,8 @@
 
 > A playground for Docker with React and webpack.
 
+# Development
+
 * Cloning the repo
 
 ```bash
@@ -16,19 +18,21 @@ $ git clone https://github.com/robertoachar/docker-react-webpack.git
 $ npm install
 ```
 
-* Building image
+# Docker
+
+* Building an image
 
 ```bash
 $ docker-compose build
 ```
 
-* Running image
+* Running a container
 
 ```bash
 $ docker-compose up
 ```
 
-* Stoping image
+* Stopping a container
 
 ```bash
 $ docker-compose down
