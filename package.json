@@ -6,8 +6,10 @@
   "homepage": "https://github.com/robertoachar/docker-react-webpack#readme",
   "keywords": [
     "docker",
+    "docker-compose",
     "react",
-    "webpack"
+    "webpack",
+    "live-reload"
   ],
   "scripts": {
     "start": "node scripts/start.js",
